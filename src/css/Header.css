@@ -1,0 +1,33 @@
+.header {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3vw;
+}
+
+.about-details-span {
+    font-weight: 700;
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+}
+
+.hr {
+    width: 40px;   
+    height: 6px;
+    border-radius: 10px;            
+    background-color:#ff5349;
+}
+
+.header p {
+    font-size: 1.2rem;
+}

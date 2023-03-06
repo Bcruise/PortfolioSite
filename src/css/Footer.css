@@ -1,0 +1,101 @@
+footer {
+    background-color: #ff5349;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: auto;
+    color: white;
+    font-family: var(--SourceSansPro);
+    letter-spacing: 1px;
+    font-weight: 700;
+    bottom: 0;
+    width: 100vw;
+}
+
+.name {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.name span:first-of-type {
+    font-size: 1.25rem;
+}
+
+.name span:not(:first-of-type) {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.d-flex-row {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.d-flex-row span {
+    font-size: 1.25rem;
+}
+
+.d-flex-row a:link, .d-flex-row a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.github-link:hover { 
+    color: inherit; 
+    text-decoration: none;
+}
+
+.fa-github {
+    font-size: 2rem;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fa-file {
+    font-size: 1.75rem;
+    cursor: pointer;
+    margin-left: .4rem;
+}
+
+.fa-github a {
+    color:#333;
+    background-color: white;
+}
+
+.fa-linkedin {
+    background-color: white;
+    color: #ff5349;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+
+

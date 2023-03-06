@@ -1,0 +1,96 @@
+:root {
+    --SourceSansPro: Source Sans Pro, sans-serif;
+    --FredokaOne: Fredoka One, sans-serif;
+}
+
+nav {
+    display: fixed;
+    height: 80px;
+    padding: 1%;
+    font-family: var(--SourceSansPro);
+    display: flex;
+    align-items: center;
+    color: #333;
+    background-color: none;
+    width: 100%;
+}
+
+.logo-and-name-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2.5%;
+    width: 50%;
+}
+
+.logo-and-name {
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.red {
+    font-size: 1.5rem;
+    color: #ff5349;
+}
+
+.toggledLetters {
+    display: none;
+}
+
+.links-div {
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2.5%;
+}
+
+.links-div div {
+    width: 8.5vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.links-div a:link, .links-div a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-bars, .fa-times {
+    display: none;
+    color:#333;
+    cursor: pointer;
+}
+
+.links-div div:hover {
+    animation: name 1s forwards 1;
+}
+
+@keyframes name {
+    from {
+        color:black;
+    }
+    to   { 
+        color:#ff5349
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-and-name-div {
+        width: calc((100vw/12)*11)
+    }
+
+    .select-option div, .links-div {
+        display: none;
+    }
+
+    .fa-bars, .fa-times {
+        display: unset;
+    }
+    
+}

@@ -1,0 +1,58 @@
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    height: auto;
+    background-color: white;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+form label {
+    font-weight: 700;
+}
+
+.user-name, .user-email, .user-message {
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+textarea { 
+    resize: none; 
+}
+
+.button-div {
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    margin-top: -20px;
+}
+
+.submit-button {
+    background-color: #ff5349;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    transition: 0.3s;
+    cursor: pointer;
+    min-width: 15vw;
+    width: auto;
+    height: 7.5vh;
+    margin-top: 25px;
+}
+
+.submit-button:hover{
+    margin-top: 20px;
+}
