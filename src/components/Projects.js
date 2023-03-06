@@ -12,11 +12,13 @@ headersInfo.forEach(val => {
     }
 });
 
+
+
 function Projects() {
   return (
     <>
       <Header title={projectCarrier.title} description={projectCarrier.description}/> 
-      <IndProject />
+      {workCarrier.map(project => <IndProject project={project}/>)};
     </>    
   );
 }

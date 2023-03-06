@@ -3,9 +3,102 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .ind-sub-div {
     display: flex;
     flex-direction: row;
+    height: auto;
 }
+
+.image-side {
+    background-image: url(../images/PlanMyDinnerPicture.png);
+    height: auto;
+}
+
+.project-skill-container {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    font-weight: 600;
+    background-color: rgba(153,153,153,.2);
+    border-radius: 5px;
+}
+
+.project-details-span {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-details-title {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.project-details p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.case-study-button {
+    background-color: #ff5349;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gitHub-repo-button {
+    background-color: #6cc644;
+    color: white;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    letter-spacing: 1px;
+    font-weight: 500;
+    border: none;
+}
+
+.case-study-button, .gitHub-repo-button {
+    width: 95%;
+    height: auto;
+    font-size: 1rem;
+}
+
+.details-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
