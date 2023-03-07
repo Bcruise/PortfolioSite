@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.338fb9fd.css",
+    "main.js": "/React-Portfolio/static/js/main.8c330951.js",
+    "static/media/PlanMyDinnerPicture.png": "/React-Portfolio/static/media/PlanMyDinnerPicture.9f710f10a933e8b47258.png",
+    "static/media/triangle-g833621a8e_1280.png": "/React-Portfolio/static/media/triangle-g833621a8e_1280.3278e5ff16019c7bd7b4.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.338fb9fd.css.map": "/React-Portfolio/static/css/main.338fb9fd.css.map",
+    "main.8c330951.js.map": "/React-Portfolio/static/js/main.8c330951.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.338fb9fd.css",
+    "static/js/main.8c330951.js"
+  ]
+}
