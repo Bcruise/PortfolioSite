@@ -1,0 +1,42 @@
+.dropdown-main {
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 80.08px;
+    animation: opacity 0.3s;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100%   { 
+        opacity: 1;
+    }
+}   
+
+.drop-down {
+    border: 1px solid rgba(220,220,220,0.8);
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: flex-end;
+    cursor: pointer;
+    font-family: var(--SourceSansPro);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.drop-down:hover {
+    animation: name 1s forwards 1;
+}

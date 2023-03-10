@@ -9,7 +9,7 @@
     },
     {
         "title": "ReadMe Generator",
-        "image": "./images/ReadMe.png",
+        "image": "../images/ReadMe.png",
         "gitHubPagesURL": "https://bcruise.github.io/ReadMeGenerator",
         "gitHubRepoURL": "https://github.com/BCruise/ReadMeGenerator",
         "description": "This app creates a command-line application that accepts user input, to create a quick and easy ReadMe file for their repository.",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Calendar App",
-        "image": "./images/Calendar.png",
+        "image": "../images/Calendar.png",
         "gitHubPagesURL": "https://bcruise.github.io/Ben-Cruises-Calendar-App/",
         "gitHubRepoURL": "https://github.com/BCruise/Ben-Cruises-Calendar-App/",
         "description": "Created using web API's, JQuery and Javascript to make the web page dynamic. Furthering abilities using loops as well as practise using Moment.js",

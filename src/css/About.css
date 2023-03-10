@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .about-bottom {
     display: flex;
     flex-direction: column;
@@ -35,4 +44,31 @@
 .about-title {
     font-weight: 800;
     font-size: 1.5rem;
+    margin-bottom: 30rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.ind-skill-container {
+    width: auto;
+    height: auto;
+    margin: .5rem;
+    font-weight: 600;
+    background-color: rgba(153,153,153,.2);
+    border-radius: 5px;
+}
+
+
+.ind-skill-container span {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .5rem;
 }
