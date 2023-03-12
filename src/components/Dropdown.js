@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import '../css/Dropdown.css';
 
 
-function Dropdown(dropdownOn, setDropdownOn) {
+function Dropdown({setDropdownOn}) {
   return (
     <>
         <div class="col-12 dropdown-main">
-            <Link to="/"><div class="drop-down p-2" >HOME</div></Link>
-            <Link to="/About"><div class="select-option drop-down p-2" data-name="about">ABOUT</div></Link>
-            <Link to="/Projects"><div class="select-option drop-down p-2" data-name="work">WORK</div></Link>
-            <Link to="/Contact"><div class="select-option drop-down p-2" data-name="contact">CONTACT</div></Link>
+            <Link to="/"><div class="drop-down p-2" onClick={() => setDropdownOn(false)}>HOME</div></Link>
+            <Link to="/About"><div class="drop-down p-2" onClick={() => setDropdownOn(false)}>ABOUT</div></Link>
+            <Link to="/Projects"><div class="drop-down p-2" onClick={() => setDropdownOn(false)}>WORK</div></Link>
+            <Link to="/Contact"><div class="drop-down p-2" onClick={() => setDropdownOn(false)}>CONTACT</div></Link>
         </div>
     </>    
   );

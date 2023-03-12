@@ -1,6 +1,5 @@
 .dropdown-main {
-    flex-direction: column;
-    background-color: white;
+    background-color: rgb(220,220,220);
     width: 100%;
     margin-bottom: 2rem;
     position: fixed;
@@ -18,12 +17,12 @@
 }   
 
 .drop-down {
-    border: 1px solid rgba(220,220,220,0.8);
+    border-bottom: 1px solid darkgray;
     height: 65px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(220,220,220);
     align-items: flex-end;
     cursor: pointer;
     font-family: var(--SourceSansPro);
@@ -39,4 +38,11 @@ a:hover, a:visited, a:link, a:active {
 
 .drop-down:hover {
     animation: name 1s forwards 1;
+}
+
+@media (max-width: 768px) {
+    .drop-down {
+        display: flex;
+    }
+    
 }

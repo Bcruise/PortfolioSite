@@ -91,5 +91,9 @@ nav {
     .fa-bars, .fa-times {
         display: unset;
     }
+
+    nav {
+        background-color: rgb(220,220,220);
+    }
     
 }

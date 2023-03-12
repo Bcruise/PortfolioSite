@@ -43,7 +43,7 @@ function Navbar() {
             }}>
           </i>}
       </nav>
-      {dropdownOn && <Dropdown dropdownOn={dropdownOn} setDropdownOn={setDropdownOn}/>}
+      {dropdownOn && <Dropdown setDropdownOn={setDropdownOn}/>}
     </>    
   );
 }

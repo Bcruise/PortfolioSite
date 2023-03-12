@@ -1,4 +1,5 @@
 import '../css/Footer.css';
+import CV from "../files/BenCruise'sCV.docx";
 
 function Footer() {
   return (
@@ -18,8 +19,8 @@ function Footer() {
                             </a>
                         </div>
                         <div className="right m-1">
-                          <a href="../files/Ben Cruise's CV.docx">
-                            <i className="fa fa-file"></i>NOTWORKING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                          <a href={CV} download>
+                            <i className="fa fa-file"></i>
                           </a>
                         </div>
                     </div>
