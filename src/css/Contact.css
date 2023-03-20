@@ -56,3 +56,14 @@ textarea {
 .submit-button:hover{
     margin-top: 20px;
 }
+
+.email-conf {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.email-conf span {
+    color:red;
+    font-weight: 700;
+    font-size: 17px;
+}

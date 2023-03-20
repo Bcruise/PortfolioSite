@@ -1,6 +1,5 @@
 :root {
     --SourceSansPro: Source Sans Pro, sans-serif;
-    --FredokaOne: Fredoka One, sans-serif;
 }
 
 nav {
@@ -91,6 +90,10 @@ nav {
 
     .fa-bars, .fa-times {
         display: unset;
+    }
+
+    nav {
+        background-color: rgb(220,220,220);
     }
     
 }

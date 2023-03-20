@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import headersInfo from '../data/headers.json';
 import '../css/Contact.css';
-let contactCarrier = '';
 
-headersInfo.forEach(val => {
-    if (val.title === 'CONTACT') {
-        contactCarrier = val;
-    }
-});
 
 function Contact() {
+  const [contactCarrier, setContactCarrier] = useState('');
+  const [whetherEmailSent, setWhetherEmailSent] = useState(false);
+
+  useEffect(() => {headersInfo.forEach(val => {
+    if (val.title === 'CONTACT') {
+        setContactCarrier(val);
+    }
+  })});
+
   return (
     <div className="contact mb-5">
         <Header title={contactCarrier.title} description={contactCarrier.description}/>
@@ -22,8 +25,17 @@ function Contact() {
               <label className="p-1">Message</label>
               <textarea className="user-message p-3 mb-5"  placeholder="Enter Your Message"></textarea>
               <div className="button-div col-12">
-                  <button className="submit-button">SUBMIT</button>
+                  <button className="submit-button" 
+                    onClick={
+                      () => setWhetherEmailSent(true)
+                    }>
+                    SUBMIT
+                  </button>
               </div>
+              {whetherEmailSent && 
+                <div className="email-conf">
+                  <span>*Email sent</span>
+                </div>}
           </form>
     </div>    
   );

@@ -1,4 +1,5 @@
 import '../css/Footer.css';
+import CV from "../files/BenCruise'sCV.docx";
 
 function Footer() {
   return (
@@ -26,9 +27,9 @@ function Footer() {
           </div>
           <div className="col-lg-9 col-md-12 name pe-5">
             <span className="pb-3">BEN CRUISE</span>
-            <span>ben_cruise@hotmail.co.uk</span>
-            <span>07972 045 233</span>
-            <span>User-Focused Developer with advanced skills in Javascript, HTML and CSS, amongst other languages and frameworks.</span>
+            <span className="pb-1">User-Focused Developer with advanced skills in Javascript, HTML and CSS, amongst other languages and frameworks.</span>
+            <span className="pb-1">ben_cruise@hotmail.co.uk</span>
+            <span className="pb-1">07972 045 233</span>
           </div>
       </footer>
     </>    
