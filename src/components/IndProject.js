@@ -2,27 +2,22 @@ import React from 'react';
 import '../css/IndProject.css';
 
 
-
-
-
-class IndProject extends React.Component {
-    render () {
-
+function IndProject(project) {
         return (<div className="ind-project">
                     <div className="ind-sub-div col-11 my-3 row">
                         <div className="col-lg-6 col-md-12 image-side">
-                            
+                            <img alt={project.project.title}></img>
                         </div>
                         <div className="col-lg-6 col-md-12 p-5 details-side">
-                            <span className="project-details-title">{this.props.project.title}</span>
+                            <span className="project-details-title">{project.project.title}</span>
                             <div className="project-details">
-                                <p className="col-12">{this.props.project.description}</p>
+                                <p className="col-12">{project.project.description}</p>
                             </div>
                             <div class="buttons-div">
-                                <a class="col-6" href={this.props.project.gitHubPagesURL}>
+                                <a class="col-6" href={project.project.gitHubPagesURL}>
                                     <button class="case-study-button p-2">Case Study</button>
                                 </a>
-                                <a class="col-6" href={this.props.project.gitHubRepoURL}>
+                                <a class="col-6" href={project.project.gitHubRepoURL}>
                                     <button class="gitHub-repo-button p-2">GitHub Repo</button>
                                 </a>
                             </div>
@@ -33,6 +28,5 @@ class IndProject extends React.Component {
             </div>
         );
     }
-}
 
 export default IndProject;

@@ -18,7 +18,9 @@ function Footer() {
                             </a>
                         </div>
                         <div className="right m-1">
-                                <i className="fa fa-file"></i>
+                          <a href={CV} download>
+                            <i className="fa fa-file"></i>
+                          </a>
                         </div>
                     </div>
           </div>

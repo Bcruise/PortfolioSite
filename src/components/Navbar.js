@@ -32,6 +32,7 @@ function Navbar() {
           </div>
           <i class="fa fa-bars fa-lg" id="toggle-fa"></i>
       </nav>
+      {dropdownOn && <Dropdown dropdownOn={dropdownOn} setDropdownOn={setDropdownOn}/>}
     </>    
   );
 }
