@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.cd03d0ec.css",
-    "main.js": "/React-Portfolio/static/js/main.869b4795.js",
-    "static/media/triangle-g833621a8e_1280.png": "/React-Portfolio/static/media/triangle-g833621a8e_1280.3278e5ff16019c7bd7b4.png",
-    "static/media/BenCruise'sCV.docx": "/React-Portfolio/static/media/BenCruise'sCV.a463361f710ee9473489.docx",
-    "index.html": "/React-Portfolio/index.html",
-    "main.cd03d0ec.css.map": "/React-Portfolio/static/css/main.cd03d0ec.css.map",
-    "main.869b4795.js.map": "/React-Portfolio/static/js/main.869b4795.js.map"
+    "main.css": "/PortfolioSite/static/css/main.7d919185.css",
+    "main.js": "/PortfolioSite/static/js/main.0496f390.js",
+    "static/media/PlanMyDinnerPicture.png": "/PortfolioSite/static/media/PlanMyDinnerPicture.9f710f10a933e8b47258.png",
+    "static/media/ReadMe.png": "/PortfolioSite/static/media/ReadMe.67a5c797893f74d69121.png",
+    "static/media/triangle-g833621a8e_1280.png": "/PortfolioSite/static/media/triangle-g833621a8e_1280.3278e5ff16019c7bd7b4.png",
+    "static/media/BenCruise'sCV.docx": "/PortfolioSite/static/media/BenCruise'sCV.a463361f710ee9473489.docx",
+    "static/media/Calendar.png": "/PortfolioSite/static/media/Calendar.90bfeadc575508942461.png",
+    "index.html": "/PortfolioSite/index.html",
+    "main.7d919185.css.map": "/PortfolioSite/static/css/main.7d919185.css.map",
+    "main.0496f390.js.map": "/PortfolioSite/static/js/main.0496f390.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd03d0ec.css",
-    "static/js/main.869b4795.js"
+    "static/css/main.7d919185.css",
+    "static/js/main.0496f390.js"
   ]
 }
