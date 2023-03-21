@@ -1,7 +1,7 @@
 [
     {   
         "title": "Plan My Dinner",
-        "image": "../images/PlanMyDinnerPicture.png",
+        "image": "https://github.com/Bcruise/PortfolioSite/blob/main/src/images/Calendar.png?raw=true",
         "gitHubPagesURL": "https://bcruise.github.io/PlanMyDinner",
         "gitHubRepoURL": "https://github.com/BCruise/PlanMyDinner",
         "description": "Plan My Dinner is a search engine that enables you to find the perfect recipe using the ingredients you have at home. Thousands of recipes are made available, all you do is type in the contents of your fridge. Plan My Dinner will even suggest a cocktail to go with it!",
@@ -9,7 +9,7 @@
     },
     {
         "title": "ReadMe Generator",
-        "image": "../images/ReadMe.png",
+        "image": "https://github.com/Bcruise/PortfolioSite/blob/main/src/images/ReadMe.png?raw=true",
         "gitHubPagesURL": "https://bcruise.github.io/ReadMeGenerator",
         "gitHubRepoURL": "https://github.com/BCruise/ReadMeGenerator",
         "description": "This app creates a command-line application that accepts user input, to create a quick and easy ReadMe file for their repository.",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Calendar App",
-        "image": "../images/Calendar.png",
+        "image": "https://github.com/Bcruise/PortfolioSite/blob/main/src/images/Calendar.png?raw=true",
         "gitHubPagesURL": "https://bcruise.github.io/Ben-Cruises-Calendar-App/",
         "gitHubRepoURL": "https://github.com/BCruise/Ben-Cruises-Calendar-App/",
         "description": "Created using web API's, JQuery and Javascript to make the web page dynamic. Furthering abilities using loops as well as practise using Moment.js",
