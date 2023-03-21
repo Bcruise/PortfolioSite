@@ -1,7 +1,10 @@
 import React from 'react';
 import '../css/IndProject.css';
 
+// import all images here
+
 function IndProject({project}) {
+    console.log(project);
         return (<div className="ind-project">
                     <div className="ind-sub-div col-11 my-3 row">
                         <div className="col-lg-6 col-md-12 image-side">
