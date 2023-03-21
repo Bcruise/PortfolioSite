@@ -4,7 +4,7 @@ import CV from "../files/BenCruise'sCV.docx";
 function Footer() {
   return (
     <>
-        <footer className="footer p-4 row">
+        <footer className="footer p-4 row mt-2">
           <div className="col-lg-1 col-m-12 d-flex-row pb-3">
                     <span className="pb-3">SOCIALS</span>
                     <div className="social-icons col-12">
