@@ -18,7 +18,7 @@ function About() {
   return (
     <>
         <Header title={aboutMeCarrier.title} description={aboutMeCarrier.description}/>
-        <div className="about-bottom col-12 p-3">
+        <div className="about-bottom col-12 pt-3">
           <div className="about-sub-div row col-11">
             <div className="col-lg-6 col-md-12 p-3">
               <span className="about-title">Get to know me!</span>

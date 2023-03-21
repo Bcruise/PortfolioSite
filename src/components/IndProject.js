@@ -18,7 +18,7 @@ function IndProject({project}) {
         }
     }
 
-        return (<div className="ind-project">
+        return (<div className="ind-project pt-3">
                     <div className="ind-sub-div col-11 my-3 row">
                         <div className="col-lg-6 col-md-12 image-side py-3">
                             

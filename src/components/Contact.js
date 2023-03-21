@@ -17,7 +17,7 @@ function Contact() {
   return (
     <div className="contact mb-5">
         <Header title={contactCarrier.title} description={contactCarrier.description}/>
-          <form className="col-10 p-5">
+          <form className="col-10 p-5 m-5">
               <label className="p-1">Name</label>
               <input className="user-name p-3 mb-5" placeholder="Enter Your Name"/>
               <label className="p-1">Email</label>
