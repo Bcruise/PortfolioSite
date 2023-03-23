@@ -25,7 +25,7 @@ function Footer() {
                         </div>
                     </div>
           </div>
-          <div className="col-lg-9 col-md-12 name pe-5">
+          <div className="col-lg-9 col-md-12 name">
             <span className="pb-3">BEN CRUISE</span>
             <span className="pb-1">User-Focused Developer with advanced skills in Javascript, HTML and CSS, amongst other languages and frameworks.</span>
             <span className="pb-1">ben_cruise@hotmail.co.uk</span>
