@@ -2,3 +2,17 @@
     display: flex;
     flex-direction: row;
 }
+
+.select-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-div select, .select-div select:focus, .select-div select:active, .select-div option, .select-div option:focus, .select-div option:active{
+    border: none !important;
+    outline: none;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
