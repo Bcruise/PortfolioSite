@@ -4,7 +4,7 @@
         "image": "https://github.com/Bcruise/PortfolioSite/blob/main/src/images/Crypto.png?raw=true",
         "gitHubPagesURL": "https://bcruise.github.io/Trade_Wars",
         "gitHubRepoURL": "https://github.com/BCruise/Trade_Wars",
-        "description": "Buy and Sell you favourite Cryptocurrencies, and compete against your friends and family.",
+        "description": "Buy and Sell you favourite Cryptocurrencies with this demo account, and compete against your friends and family.",
         "techStack": ["React" ,"HTML", "JavaScript", "Axios", "CSS", "Bootstrap", "Font Awesome"]
     },{   
         "title": "Plan My Dinner",

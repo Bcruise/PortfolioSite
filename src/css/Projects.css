@@ -10,9 +10,10 @@
 }
 
 .select-div select, .select-div select:focus, .select-div select:active, .select-div option, .select-div option:focus, .select-div option:active{
-    border: none !important;
+    border: solid 2px red;
     outline: none;
-    height: 2rem;
+    width: calc((100%/12)*11);
     text-align: center;
-    font-size: 1.25rem;
+    background-color: transparent;
+    font-weight: 600;
 }
