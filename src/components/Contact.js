@@ -24,7 +24,7 @@ function Contact() {
        console.log('FAILED...', error);
     });
   }
-console.log(emailTemplate)
+  
   return (
     <div className="contact mb-5">
         <Header title={contactCarrier.title} description={contactCarrier.description}/>
