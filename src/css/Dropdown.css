@@ -1,5 +1,7 @@
 .dropdown-main {
-    background-color: rgb(220,220,220);
+
+    flex-direction: column;
+    background-color: white;
     width: 100%;
     margin-bottom: 2rem;
     position: fixed;
@@ -17,12 +19,14 @@
 }   
 
 .drop-down {
-    border-bottom: 1px solid darkgray;
+
+    border: 1px solid rgba(220,220,220,0.8);
     height: 65px;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(220,220,220);
+    background-color: white;
+
     align-items: flex-end;
     cursor: pointer;
     font-family: var(--SourceSansPro);
