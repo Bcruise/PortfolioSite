@@ -4,6 +4,7 @@ import PlanMyDinner from '../images/PlanMyDinnerPicture.png';
 import ReadMe from '../images/ReadMe.png';
 import Calendar from '../images/Calendar.png';
 import Crypto from '../images/Crypto.png';
+import Logo from '../images/Logo.png';
 
 
 function IndProject({project}) {
@@ -18,6 +19,8 @@ function IndProject({project}) {
             return <img src={Calendar} alt={project.title}></img>
         } else if (project.title == 'Trade Wars') {
             return <img src={Crypto} alt={project.title}></img>
+        } else if (project.title == 'Art By Natasha') {
+            return <img src={Logo} alt={project.title}></img>
         }
     }
 
